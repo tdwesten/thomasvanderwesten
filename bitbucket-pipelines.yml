@@ -11,6 +11,6 @@ pipelines:
             # the first argument is the name of the existing S3 bucket to upload the artefact to
             # the second argument is the artefact to be uploaded
             # the third argument is the the bucket key
-            - python s3_upload.py bucket artefact bucket_key # run the deployment script
+            - python s3_upload.py bucket _site bucket_key # run the deployment script
             # Example command line parameters. Replace with your values
             #- python s3_upload.py bb-s3-upload SampleApp_Linux.zip SampleApp_Linux # run the deployment script

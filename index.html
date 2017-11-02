@@ -1,0 +1,25 @@
+---
+layout: compress
+---
+
+{% include head.html %}
+
+<body>
+
+<div class="wrapper">
+
+    {% include sidebar.html %}
+
+    <main>
+
+        {% for project in site.data.projects %}
+
+        {% include project.html %}
+
+        {% endfor %}
+
+    </main>
+
+</div>
+
+</body>

@@ -1,0 +1,244 @@
+$padding: 2rem;
+$blue: #4A90E2;
+$gray: #CDCCCD;
+$white: #fff;
+$screen-md-min: 767px;
+$screen-lg-min: 1200px;
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+    font-size: 1.8rem;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+}
+
+p {
+    margin-bottom: $padding;
+}
+
+i {
+    font-style: italic;
+}
+
+a {
+    font-weight: 500;
+    color: $blue;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+h1 {
+    font-weight: 500;
+    color: $blue;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 4rem;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    @media (min-width: $screen-md-min) {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        display: block;
+    }
+}
+
+aside {
+    display: flex;
+    justify-content: space-between;
+    line-height: 2.4rem;
+    flex: 0 0 100%;
+    padding-top: 13rem;
+    padding-bottom: 3rem;
+    flex-wrap: wrap;
+    background-color: $white;
+
+    @media (min-width: $screen-md-min) {
+        position: fixed;
+        width: 50rem;
+        bottom: 0;
+        top: 0;
+        padding: $padding;
+    }
+}
+
+main {
+    flex: 0 0 100%;
+
+    @media (min-width: $screen-md-min) {
+        width: calc(100vw - 50rem);
+        float: right;
+    }
+}
+
+.header {
+    flex: 0 0 100%;
+    background-color: rgba($white, .95);
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding-bottom: $padding / 2;
+
+    @media (min-width: $screen-md-min) {
+        position: relative;
+    }
+
+    &__title {
+        padding: $padding / 2;
+        position: relative;
+
+        &:before {
+            content: '';
+            width: 4.5rem;
+            border-top: 1px solid $gray;
+            position: absolute;
+            bottom: 0;
+        }
+        p {
+            margin-bottom: 0;
+        }
+
+    }
+}
+
+.content {
+    flex: 0 0 100%;
+    padding: $padding / 2;
+}
+
+.button {
+    margin-top: $padding;
+    display: inline-block;
+    background-color: $blue;
+    color: $white;
+    text-decoration: none;
+    padding: $padding / 2 $padding / 1.75;
+    border-radius: .4rem;
+    border: 1px solid darken($blue, 10);
+
+    &:hover {
+        background-color: darken($blue, 15);
+        text-decoration: none;
+    }
+
+    &:active {
+        transform: translate(2px, 2px);
+    }
+}
+
+.socials {
+    display: flex;
+    flex: 0 0 100%;
+    align-items: flex-end;
+}
+
+main {
+
+}
+
+.project {
+    padding: $padding * 3 $padding * 1.5 $padding * 2;
+    color: $white;
+
+    @media (min-width: $screen-md-min) {
+        padding: $padding * 4 $padding * 3 $padding * 2.5;
+    }
+
+    @media (min-width: $screen-lg-min) {
+        padding: $padding * 4 $padding * 5 $padding * 2.5;
+    }
+
+    h2 {
+        font-size: 2.2rem;
+        margin-top: 1.5rem;
+
+        @media (min-width: $screen-md-min) {
+            margin-top: 2.5rem;
+
+        }
+    }
+
+    h3 {
+        font-size: 1.4rem;
+        font-weight: 500;
+
+        span {
+            font-weight: 300;
+        }
+    }
+
+}
+
+.browser {
+    border-radius: 3px;
+    overflow: hidden;
+    background: rgba(0,0,0,0.25);
+
+    img {
+        width: 100%;
+
+    }
+
+    &__topbar {
+        padding: $padding / 4;
+        background: rgba(0, 0, 0, 0.25);
+        overflow: hidden;
+
+        &__dots {
+            content: ' ';
+            display: block;
+            float: left;
+            border-radius: .75rem;
+            width: .75rem;
+            height: .75rem;
+            opacity: 0.5;
+            background: #FFFFFF;
+            margin-right: .5rem;
+        }
+    }
+}
+
+.socials {
+    padding: $padding $padding / 2;
+    a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba($blue, .5);
+        width: 4rem;
+        float: left;
+        height: 4rem;
+        margin-right: 1rem;
+        border-radius: .4rem;
+        &:hover {
+            background-color: darken(rgba($blue, .5), 15);
+        }
+
+        &:active {
+            transform: translate(2px, 2px);
+        }
+    }
+}

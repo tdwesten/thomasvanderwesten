@@ -1,0 +1,77 @@
+[
+    {
+        "title": "Goodarce",
+        "description": "WordPress",
+        "url": "http://goodacre.nl",
+        "year": 2017,
+        "role": "Lead & Frontend Developer",
+        "employeur": "Jannes & Mannes",
+        "color": "#44444E",
+        "image_file": "goodacre"
+    },
+    {
+        "title": "Studio ID+",
+        "description": "WordPress",
+        "year": 2017,
+        "url": "http://studioidplus.nl/",
+        "role": "Lead Frontend developer",
+        "employeur": "Jannes & Mannes",
+        "color": "#EBCD55",
+        "image_file": "studioidplus"
+    },
+    {
+        "title": "Redept",
+        "description": "WordPress",
+        "year": 2017,
+        "url": "http://redept.nl/",
+        "role": "Frontend developer",
+        "employeur": "Jannes & Mannes",
+        "color": "#c33",
+        "image_file": "redept"
+    },
+    {
+        "title": "De kleur van geld",
+        "description": "Multisite WordPress",
+        "year": 2016,
+        "role": "Lead Frontend developer",
+        "employeur": "Internetbureau Haboes",
+        "image_file": "dekleurvangeld",
+        "color": "#00947a"
+    },
+    {
+        "title": "DeKey Actueel",
+        "description": "WordPress",
+        "year": 2016,
+        "role": "Lead Frontend developer",
+        "employeur": "Internetbureau Haboes",
+        "image_file": "actueel_dekey",
+        "color": "#00527D"
+    },
+    {
+        "title": "Sunnycars Blog",
+        "description": "WordPress",
+        "year": 2016,
+        "role": "Frontend developer",
+        "employeur": "Internetbureau Haboes",
+        "image_file": "blog_sunnycars",
+        "color": "#3b9490"
+    },
+    {
+        "title": "Werktrends",
+        "description": "WordPress",
+        "year": 2016,
+        "role": "Lead Frontend developer",
+        "employeur": "Internetbureau Haboes",
+        "image_file": "werktrends",
+        "color": "#B82124"
+    },
+    {
+        "title": "Omron ManMade",
+        "description": "WordPress",
+        "year": 2016,
+        "role": "Lead Frontend developer",
+        "employeur": "Internetbureau Haboes",
+        "image_file": "omron_manmade",
+        "color": "#0078BD"
+    }
+]

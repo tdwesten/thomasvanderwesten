@@ -3,16 +3,10 @@
 # Only use spaces to indent your .yml configuration.
 # -----
 # You can specify a custom docker image from Docker Hub as your build environment.
-image: ruby:2.3.0
+image: attensee/s3_website
 
 pipelines:
   default:
     - step:
         script: # Modify the commands below to build your repository.
-          - apt-get update
-          - apt-get --assume-yes install default-jre
-          - java -version
-          - bundler --version
-          - bundle install
-          - JEKYLL_ENV=production jekyll build
           - s3_website push

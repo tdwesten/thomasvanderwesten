@@ -1,5 +1,7 @@
 s3_id: AKIAIN5EX62ZILAPWFTA
 s3_secret: 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
 s3_bucket: www.thomasvanderwesten.nl
+cloudfront_distribution_id: E1F4SAGB6GVIDU
+s3_endpoint: eu-west-2
 site: _site/
 

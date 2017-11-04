@@ -1,15 +1,5 @@
 [
     {
-        "title": "Goodarce",
-        "description": "Maatwerk WordPress thema",
-        "url": "http://goodacre.nl",
-        "year": 2017,
-        "role": "Lead & Frontend Developer",
-        "employeur": "Jannes & Mannes",
-        "color": "#44444E",
-        "image_file": "goodacre"
-    },
-    {
         "title": "Studio ID+",
         "description": "Maatwerk WordPress thema",
         "year": 2017,
@@ -28,6 +18,16 @@
         "employeur": "Jannes & Mannes",
         "color": "#c33",
         "image_file": "redept"
+    },
+    {
+        "title": "Goodarce",
+        "description": "Maatwerk WordPress thema",
+        "url": "http://goodacre.nl",
+        "year": 2017,
+        "role": "Lead & Frontend Developer",
+        "employeur": "Jannes & Mannes",
+        "color": "#44444E",
+        "image_file": "goodacre"
     },
     {
         "title": "De kleur van geld",

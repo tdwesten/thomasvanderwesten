@@ -1,7 +1,7 @@
 [
     {
         "title": "Goodarce",
-        "description": "WordPress",
+        "description": "Maatwerk WordPress thema",
         "url": "http://goodacre.nl",
         "year": 2017,
         "role": "Lead & Frontend Developer",
@@ -11,7 +11,7 @@
     },
     {
         "title": "Studio ID+",
-        "description": "WordPress",
+        "description": "Maatwerk WordPress thema",
         "year": 2017,
         "url": "http://studioidplus.nl/",
         "role": "Lead Frontend developer",
@@ -21,7 +21,7 @@
     },
     {
         "title": "Redept",
-        "description": "WordPress",
+        "description": "Maatwerk WordPress thema",
         "year": 2017,
         "url": "http://redept.nl/",
         "role": "Frontend developer",
@@ -31,7 +31,7 @@
     },
     {
         "title": "De kleur van geld",
-        "description": "Multisite WordPress",
+        "description": "Multisite WordPress & Maatwerk Thema's",
         "year": 2016,
         "role": "Lead Frontend developer",
         "employeur": "Internetbureau Haboes",
@@ -40,7 +40,7 @@
     },
     {
         "title": "Frankwatching",
-        "description": "WordPress",
+        "description": "Maatwerk WordPress thema",
         "year": 2016,
         "role": "Frontend developer",
         "employeur": "Internetbureau Haboes",
@@ -49,7 +49,7 @@
     },
     {
         "title": "Mylaps",
-        "description": "WordPress",
+        "description": "Maatwerk WordPress thema",
         "year": 2016,
         "role": "Lead Frontend developer",
         "employeur": "Internetbureau Haboes",
@@ -58,7 +58,7 @@
     },
     {
         "title": "DeKey Actueel",
-        "description": "WordPress",
+        "description": "Maatwerk WordPress thema",
         "year": 2016,
         "role": "Lead Frontend developer",
         "employeur": "Internetbureau Haboes",
@@ -66,8 +66,35 @@
         "color": "#00527D"
     },
     {
+        "title": "Happinezz",
+        "description": "Maatwerk WordPress thema",
+        "year": 2016,
+        "role": "Frontend developer",
+        "employeur": "Internetbureau Haboes",
+        "image_file": "margriet",
+        "color": "#5CBC97"
+    },
+    {
+        "title": "Margiet",
+        "description": "Maatwerk WordPress thema framework",
+        "year": 2016,
+        "role": "Frontend developer",
+        "employeur": "Internetbureau Haboes",
+        "image_file": "margriet",
+        "color": "#5CBC97"
+    },
+    {
+        "title": "Libelle",
+        "description": "Maatwerk WordPress thema framework",
+        "year": 2016,
+        "role": "Frontend developer",
+        "employeur": "Internetbureau Haboes",
+        "image_file": "libelle",
+        "color": "#d85274"
+    },
+    {
         "title": "Sunnycars Blog",
-        "description": "WordPress",
+        "description": "Maatwerk WordPress thema",
         "year": 2016,
         "role": "Frontend developer",
         "employeur": "Internetbureau Haboes",
@@ -76,7 +103,7 @@
     },
     {
         "title": "Werktrends",
-        "description": "WordPress",
+        "description": "Maatwerk WordPress thema",
         "year": 2016,
         "role": "Lead Frontend developer",
         "employeur": "Internetbureau Haboes",
@@ -85,7 +112,7 @@
     },
     {
         "title": "Omron ManMade",
-        "description": "WordPress",
+        "description": "Maatwerk WordPress thema",
         "year": 2016,
         "role": "Lead Frontend developer",
         "employeur": "Internetbureau Haboes",

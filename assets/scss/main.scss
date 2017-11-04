@@ -158,6 +158,7 @@ main {
 }
 
 .project {
+    position: relative;
     padding: $padding * 3 $padding * 1.5 $padding * 2;
     color: $white;
 
@@ -190,14 +191,42 @@ main {
 
 }
 
+.pager {
+    font-size: 1rem;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    font-weight: 300;
+    opacity: .75;
+
+    @media (min-width: $screen-md-min) {
+        font-size: 1.5rem;
+        top: 1.5rem;
+        left: 1.5rem;
+    }
+}
+
 .browser {
     border-radius: 3px;
     overflow: hidden;
     background: rgba(0, 0, 0, 0.25);
+    padding-bottom: 60%;
+    position: relative;
 
     img {
         width: 100%;
+        position: absolute;
+        left: 0;
+        top: 17px;
+        right: 0;
+        bottom: 0;
+        opacity: 0;
+        transition: opacity 500ms ease-in-out;
+        transition-delay: 500ms;
 
+        &.loaded {
+            opacity: 1;
+        }
     }
 
     &__topbar {

@@ -39,6 +39,24 @@
         "color": "#00947a"
     },
     {
+        "title": "Frankwatching",
+        "description": "WordPress",
+        "year": 2016,
+        "role": "Frontend developer",
+        "employeur": "Internetbureau Haboes",
+        "image_file": "frankwatching",
+        "color": "#028F00"
+    },
+    {
+        "title": "Mylaps",
+        "description": "WordPress",
+        "year": 2016,
+        "role": "Lead Frontend developer",
+        "employeur": "Internetbureau Haboes",
+        "image_file": "mylaps",
+        "color": "#09a6c7"
+    },
+    {
         "title": "DeKey Actueel",
         "description": "WordPress",
         "year": 2016,

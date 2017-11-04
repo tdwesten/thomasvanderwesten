@@ -1,4 +1,7 @@
 <article class="project" style="background-color:{{project.color}}">
+    <div class="pager">
+        {{forloop.index}} / {{forloop.length}}
+    </div>
     <div class="browser">
         <div class="browser__topbar">
             <div class="browser__topbar__dots"></div>
@@ -6,8 +9,8 @@
             <div class="browser__topbar__dots"></div>
         </div>
         <img
-                src="/assets/images/{{project.image_file}}-smaller.jpg"
-                srcset="/assets/images/{{project.image_file}}-smaller.jpg 368w, /assets/images/{{project.image_file}}-small.jpg 768w, /assets/images/{{project.image_file}}.jpg 1000w, /assets/images/{{project.image_file}}-large.jpg 1200w, /assets/images/{{project.image_file}}-larger.jpg 1600w "
+                data-src="/assets/images/{{project.image_file}}-smaller.jpg"
+                data-srcset="/assets/images/{{project.image_file}}-smaller.jpg 368w, /assets/images/{{project.image_file}}-small.jpg 768w, /assets/images/{{project.image_file}}.jpg 1000w, /assets/images/{{project.image_file}}-large.jpg 1200w, /assets/images/{{project.image_file}}-larger.jpg 1600w "
                 alt="Screenshot van {{project.title}}"
         >
     </div>

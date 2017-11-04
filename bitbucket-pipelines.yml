@@ -1,12 +1,9 @@
-# This is a sample build configuration for Ruby.
-# Check our guides at https://confluence.atlassian.com/x/VYk8Lw for more examples.
-# Only use spaces to indent your .yml configuration.
-# -----
-# You can specify a custom docker image from Docker Hub as your build environment.
-image: attensee/s3_website
+image: samueldebruyn/debian-git
 
 pipelines:
   default:
     - step:
-        script: # Modify the commands below to build your repository.
-          - s3_website push
+        script:
+          - apt-get update
+          - apt-get -qq install git-ftp
+          - git ftp init --user $FTP_USERNAME --passwd $FTP_PASSWORD --syncroot _site ftp://ftp.tdwesten.nl/domains/tdwesten.nl/public_html

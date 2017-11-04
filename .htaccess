@@ -15,8 +15,3 @@ Header append Cache-Control “proxy-revalidate”
 ExpiresDefault A259200
 Header append Cache-Control “proxy-revalidate”
 </FilesMatch>
-
-<Directory /.well-known/acme-challenge/ >
-     Order Deny,Allow
-     Allow from All
-</Directory>

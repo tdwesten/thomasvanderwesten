@@ -2,6 +2,7 @@ $padding: 2rem;
 $blue: #4A90E2;
 $gray: #CDCCCD;
 $white: #fff;
+$screen-sm-min: 500px;
 $screen-md-min: 767px;
 $screen-lg-min: 1200px;
 
@@ -75,10 +76,13 @@ aside {
 
     @media (min-width: $screen-md-min) {
         position: fixed;
-        width: 50rem;
+        width: 50vw;
         bottom: 0;
         top: 0;
         padding: $padding;
+    }
+    @media (min-width: $screen-lg-min) {
+        width: 50rem;
     }
 }
 
@@ -86,8 +90,12 @@ main {
     flex: 0 0 100%;
 
     @media (min-width: $screen-md-min) {
-        width: calc(100vw - 50rem);
+        width: 50vw;
         float: right;
+    }
+
+    @media (min-width: $screen-lg-min) {
+        width: calc(100vw - 50rem);
     }
 }
 
@@ -189,6 +197,22 @@ main {
         }
     }
 
+    span {
+        display: block;
+
+        @media (min-width: $screen-sm-min) {
+            display: inline-block;
+        }
+    }
+
+    .sep {
+        display: none;
+        margin-left: .4rem;
+
+        @media (min-width: $screen-sm-min) {
+            display: inline-block;
+        }
+    }
 }
 
 .pager {
@@ -246,6 +270,8 @@ main {
             margin-right: .5rem;
         }
     }
+
+
 }
 
 .socials {

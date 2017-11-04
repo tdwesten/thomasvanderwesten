@@ -1,15 +1,18 @@
-const gulp         = require( 'gulp' );
-const sass         = require( 'gulp-sass' );
-const cleanCSS     = require( 'gulp-clean-css' );
-const sourcemaps   = require( 'gulp-sourcemaps' );
-const child        = require( 'child_process' );
-const gutil        = require( 'gulp-util' );
-const browserSync  = require( 'browser-sync' ).create();
-const autoprefixer = require( 'gulp-autoprefixer' );
+const gulp            = require( 'gulp' );
+const sass            = require( 'gulp-sass' );
+const cleanCSS        = require( 'gulp-clean-css' );
+const sourcemaps      = require( 'gulp-sourcemaps' );
+const child           = require( 'child_process' );
+const gutil           = require( 'gulp-util' );
+const browserSync     = require( 'browser-sync' ).create();
+const autoprefixer    = require( 'gulp-autoprefixer' );
+const imagemin        = require( 'gulp-imagemin' );
+const imageminMozjpeg = require( 'imagemin-mozjpeg' );
 
 const siteRoot = '_site';
 const files    = {
-    scss: 'assets/scss/*.scss'
+    scss: 'assets/scss/*.scss',
+    images: 'assets/images/*.jpg'
 };
 
 gulp.task( 'css', () => {
@@ -47,6 +50,17 @@ gulp.task( 'serve', () => {
 } );
 
 gulp.task( 'default', [ 'css', 'jekyll', 'serve' ] );
+
+gulp.task( 'imagemin', function () {
+    return gulp.src( files.images )
+    .pipe( imagemin( [
+        imageminMozjpeg( {
+            quality: 85
+            
+        } )
+    ] ) )
+    .pipe( gulp.dest( 'assets/images' ) );
+} );
 
 const Logger = ( buffer ) => {
     buffer.toString()

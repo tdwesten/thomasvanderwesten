@@ -24,10 +24,22 @@ layout: compress
 
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
 <script>
-    WebFont.load({
+    WebFont.load( {
         google: {
-            families: ['Roboto:300,400,500']
+            families: [ 'Roboto:300,400,500' ]
         }
-    });
+    } );
+
+    function re() {
+        var a = 'tdwesten';
+        var b = '@';
+        var c = 'gmail.com';
+        var d = '?subject=Hi Thomas!';
+        document.getElementById( 'email-link' ).setAttribute( 'href', 'mailto:' + a + b + c + d );
+        document.getElementById( 'email-link' ).innerHTML = 'Laat iets van je horen';
+    }
+
+    re();
+
 </script>
 </body>

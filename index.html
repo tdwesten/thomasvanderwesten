@@ -24,23 +24,6 @@ layout: compress
 
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/10.3.1/lazyload.min.js"></script>
 <script>
-
-
-    WebFontConfig = {
-
-        google: {
-            families: [ 'Roboto:300,400,500' ]
-        }
-    };
-    (function () {
-        var wf   = document.createElement( 'script' );
-        wf.src   = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-        wf.type  = 'text/javascript';
-        wf.async = 'true';
-        var s    = document.getElementsByTagName( 'script' )[ 0 ];
-        s.parentNode.insertBefore( wf, s );
-    })();
-
     function re() {
         const a = 'tdwesten', b = '@', c = 'gmail.com', d = '?subject=Hi Thomas!';
         document.getElementById( 'email-link' ).setAttribute( 'href', 'mailto:' + a + b + c + d );

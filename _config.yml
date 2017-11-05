@@ -16,7 +16,8 @@
 title: Thomas van der Westen
 subtitle: Full-Stack Developer
 email: tdwesten@gmail.com
-description: Ik ben Thomas van der Westen, Full-Stack Developer gespecialiseerd in het bouwen van website’s gebasseerd op WordPress, webapplicaties aan de hand van AngularJS and React en het ondersteunen van ontwikkelteams als Scrum-Master.
+description_line_one: Ik ben Thomas van der Westen, vinyl-lover, amateur hardloper en Professioneel pixelpuzzelaar (Full-Stack Developer) bij Jannes & Mannes in Den Haag.
+description_line_two: Ik specialiseer mij in het bouwen van maatwerk WordPress thema's, webapplicaties aan de hand van AngularJS / React en het ondersteunen van ontwikkelteams als Scrumm-Master..
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 

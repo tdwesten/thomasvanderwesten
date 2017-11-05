@@ -12,7 +12,8 @@ const imageminMozjpeg = require( 'imagemin-mozjpeg' );
 const siteRoot = '_site';
 const files    = {
     scss: 'assets/scss/*.scss',
-    images: 'assets/images/*.jpg'
+    images: ['assets/images/*.jpg', '!assets/images/*-larger.jpg', '!assets/images/*-large.jpg', '!assets/images/*-small.jpg', '!assets/images/*-smaller.jpg']
+    imagesall: ['!assets/images/*.jpg', 'assets/images/*-larger.jpg', 'assets/images/*-large.jpg', 'assets/images/*-small.jpg', 'assets/images/*-smaller.jpg']
 };
 
 gulp.task( 'css', () => {
@@ -51,8 +52,20 @@ gulp.task( 'serve', () => {
 
 gulp.task( 'default', [ 'css', 'jekyll', 'serve' ] );
 
-gulp.task( 'imagemin', function () {
+gulp.task( 'imagemin', ['imagemin-mainfile', 'imagemin-allfiles']);
+gulp.task( 'imagemin-mainfile', function () {
     return gulp.src( files.images )
+    .pipe( imagemin( [
+        imageminMozjpeg( {
+            quality: 65
+            
+        } )
+    ] ) )
+    .pipe( gulp.dest( 'assets/images' ) );
+} );
+
+gulp.task( 'imagemin-allfiles', function () {
+    return gulp.src( files.imagesall )
     .pipe( imagemin( [
         imageminMozjpeg( {
             quality: 85

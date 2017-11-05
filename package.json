@@ -27,8 +27,12 @@
     "gulp-util": "^3.0.8"
   },
   "dependencies": {
+    "decode-html": "^2.0.0",
+    "del": "^3.0.0",
     "gulp": "^3.9.1",
+    "gulp-favicons": "^2.2.7",
     "gulp-imagemin": "^3.4.0",
+    "gulp-inject": "^4.3.0",
     "imagemin": "^5.3.1",
     "imagemin-jpegoptim": "^5.1.0",
     "imagemin-mozjpeg": "^6.0.0",

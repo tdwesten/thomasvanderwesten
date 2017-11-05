@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "name": "Thomas van der Westen",
+  "description": "",
+  "icons": {
+    "60": "assets/images/favicon/firefox_app_60x60.png",
+    "128": "assets/images/favicon/firefox_app_128x128.png",
+    "512": "assets/images/favicon/firefox_app_512x512.png"
+  },
+  "developer": {
+    "name": "Thomas van der Westen",
+    "url": "http://thomasvanderwesten.nl"
+  }
+}

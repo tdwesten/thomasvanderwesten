@@ -20,6 +20,26 @@
         "image_file": "redept"
     },
     {
+        "title": "DQ&A",
+        "description": "Maatwerk WordPress thema",
+        "year": 2016,
+        "url": "https://dqna.com/",
+        "role": "Lead Frontend developer",
+        "employeur": "Jannes & Mannes",
+        "color": "#0a939e",
+        "image_file": "dqna"
+    },
+    {
+        "title": "Waarkanikstemmen?",
+        "description": "React webapp",
+        "year": 2017,
+        "url": false,
+        "role": "Lead Frontend developer",
+        "employeur": false,
+        "color": "#8CD4DE",
+        "image_file": "waarkanikstemmen"
+    },
+    {
         "title": "Goodarce",
         "description": "Maatwerk WordPress thema",
         "url": "http://goodacre.nl",

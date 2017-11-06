@@ -15,3 +15,8 @@ Header append Cache-Control “proxy-revalidate”
 ExpiresDefault A259200
 Header append Cache-Control “proxy-revalidate”
 </FilesMatch>
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^tdwesten\.nl [NC]
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://tdwesten.nl/$1 [R,L]

@@ -435,7 +435,7 @@ main {
         right: 0;
         bottom: 0;
         opacity: 0;
-        transition: opacity 500ms ease-in-out;
+        transition: opacity 500ms ease;
         transition-delay: 500ms;
 
         &.loaded {
@@ -461,6 +461,46 @@ main {
         }
     }
 
+    &__loader {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        div {
+            width: 1rem;
+            height: 1rem;
+            margin: .5rem;
+            background-color: #fff;
+            border-radius: 1rem;
+            animation: loader 1000ms linear infinite;
+            animation-delay: 250ms;
+
+            &:first-child {
+                animation-delay: 0ms;
+            }
+            &:last-child {
+                animation-delay: 500ms;
+            }
+        }
+    }
+
+}
+
+@keyframes loader {
+    0% {
+        opacity: 0.25;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.25;
+    }
 }
 
 .socials {

@@ -23,6 +23,7 @@ layout: compress
 </div>
 
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/10.3.1/lazyload.min.js"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109632702-1"></script>
 <script>
     function re() {
         const a = 'tdwesten', b = '@', c = 'gmail.com', d = '?subject=Hi Thomas!';
@@ -33,6 +34,15 @@ layout: compress
     re();
 
     window.lazyLoadOptions = {}
+    window.dataLayer       = window.dataLayer || [];
+
+    function gtag() {dataLayer.push( arguments );}
+
+    gtag( 'js', new Date() );
+
+    gtag( 'config', 'UA-109632702-1' );
+
 </script>
 
-</body>
+<
+/body>

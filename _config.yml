@@ -20,6 +20,7 @@ description_line_one: Ik ben Thomas van der Westen, vinyl-lover, amateur hardlop
 description_line_two: Ik specialiseer mij in het bouwen van maatwerk WordPress thema's, webapplicaties aan de hand van AngularJS / React en het ondersteunen van ontwikkelteams als Scrumm-Master.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+theme: Thomasvanderwesten.nl
 
 # Build settings
 markdown: kramdown

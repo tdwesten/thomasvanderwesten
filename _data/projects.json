@@ -1,5 +1,35 @@
 [
     {
+        "title": "Olco",
+        "description": "Maatwerk WordPress thema",
+        "year": 2018,
+        "url": "http://olco.nl/",
+        "role": "Lead Frontend developer",
+        "employeur": "Jannes & Mannes",
+        "color": "#00e776",
+        "image_file": "olco"
+    },
+    {
+        "title": "Helios Kampen",
+        "description": "Maatwerk WordPress thema",
+        "year": 2018,
+        "url": "http://helioskampen.nl/",
+        "role": "Lead Frontend developer",
+        "employeur": "Jannes & Mannes",
+        "color": "#e16526",
+        "image_file": "helios_kampen"
+    },
+    {
+        "title": "Evry",
+        "description": "Maatwerk WordPress thema",
+        "year": 2018,
+        "url": "http://ervy.nl/",
+        "role": "Lead Frontend developer",
+        "employeur": "Jannes & Mannes",
+        "color": "#33c2d9",
+        "image_file": "evry"
+    },
+    {
         "title": "Studio ID+",
         "description": "Maatwerk WordPress thema",
         "year": 2017,

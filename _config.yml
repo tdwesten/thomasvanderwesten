@@ -14,12 +14,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Thomas van der Westen
-subtitle: Full-Stack Developer
-email: tdwesten@gmail.com
-description_line_one: Ik ben Thomas van der Westen, vinyl-lover, amateur hardloper en Professioneel pixelpuzzelaar (Full-Stack Developer) bij Jannes & Mannes in Den Haag.
+subtitle: Freelance Full-Stack Developer
+email: post@thomasvanderwesten.nl
+description_line_one: Ik ben Thomas van der Westen, vinyl-lover, amateur hardloper en Professioneel pixelpuzzelaar (Freelance Full-Stack Developer).
 description_line_two: Ik specialiseer mij in het bouwen van maatwerk WordPress thema's, webapplicaties aan de hand van AngularJS / React en het ondersteunen van ontwikkelteams als Scrumm-Master.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://thomasvanderwesten.nl" # the base hostname & protocol for your site, e.g. http://example.com
 theme: Thomasvanderwesten.nl
 
 # Build settings

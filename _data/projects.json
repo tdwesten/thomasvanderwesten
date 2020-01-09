@@ -1,8 +1,38 @@
 [
     {
-        "title": "Monochrome Watches",
+        "title": "iCulture",
         "description": "Doorontwikkeling maatwerk WordPress thema",
         "year": 2019,
+        "url": "https://www.iculture.nl/",
+        "role": "Fullstack developer",
+        "employeur": false,
+        "color": "#007fbe",
+        "image_file": "iculture"
+    },
+    {
+        "title": "CBL",
+        "description": "Maatwerk WordPress thema",
+        "year": 2018,
+        "url": "https://monochrome-watches.com",
+        "role": "Fullstack developer",
+        "employeur": "Jannes & Mannes",
+        "color": "#00867b",
+        "image_file": "cbl"
+    },
+    {
+        "title": "Stichting De Verre Bergen",
+        "description": "Maatwerk WordPress thema",
+        "year": 2018,
+        "url": "https://www.deverrebergen.nl",
+        "role": "Fullstack developer",
+        "employeur": "Jannes & Mannes",
+        "color": "#00a82d",
+        "image_file": "de_verre_bergen"
+    },
+    {
+        "title": "Monochrome Watches",
+        "description": "Doorontwikkeling maatwerk WordPress thema",
+        "year": 2018,
         "url": "https://monochrome-watches.com",
         "role": "Frontend developer",
         "employeur": "Jannes & Mannes",

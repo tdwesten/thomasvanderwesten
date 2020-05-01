@@ -10,6 +10,16 @@
         "image_file": "iculture"
     },
     {
+        "title": "Ons Bus Avontuur",
+        "description": "Overzicht van onze reis door Europa gebaseerd op VueJs",
+        "year": 2019,
+        "url": "https://www.onsbusavontuur.nl/",
+        "role": "Fullstack developer",
+        "employeur": false,
+        "color": "#d0776c",
+        "image_file": "ons_bus_avontuur"
+    },
+    {
         "title": "CBL",
         "description": "Maatwerk WordPress thema",
         "year": 2018,

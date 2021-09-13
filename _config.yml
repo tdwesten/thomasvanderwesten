@@ -17,9 +17,9 @@ title: Thomas van der Westen
 subtitle: Developer @ Pixelpillow
 email: post@thomasvanderwesten.nl
 description_line_one: Ik ben Thomas van der Westen, vinyl-lover, amateur hardloper en Professioneel pixelpuzzelaar (Full-Stack Developer).
-description_line_two: Ik specialiseer mij in het bouwen van maatwerk WordPress thema's, webapplicaties aan de hand van VueJS / React en het ondersteunen van ontwikkelteams als Scrumm-Master.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://thomasvanderwesten.nl" # the base hostname & protocol for your site, e.g. http://example.com
+description_line_two: Ik specialiseer mij in het bouwen van maatwerk WordPress thema's, webapplicaties aan de hand van Angular / EmberJs / React / NestJs en het ondersteunen van ontwikkelteams als Scrumm-Master.
+baseurl: '' # the subpath of your site, e.g. /blog
+url: 'https://thomasvanderwesten.nl' # the base hostname & protocol for your site, e.g. http://example.com
 remote_theme: Thomasvanderwesten.nl
 
 # Build settings
@@ -31,13 +31,13 @@ plugins:
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
 exclude:
-   - Gemfile
-   - Gemfile.lock
-   - node_modules
-   - vendor/bundle/
-   - vendor/cache/
-   - vendor/gems/
-   - vendor/ruby/
-   - package.json
-   - package-lock.json
-   - bitbucket-pipelines.yml
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - package.json
+  - package-lock.json
+  - bitbucket-pipelines.yml

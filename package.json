@@ -30,7 +30,7 @@
     "decode-html": "^2.0.0",
     "del": "^3.0.0",
     "gulp": "^3.9.1",
-    "gulp-favicons": "^2.2.7",
+    "gulp-favicons": "^2.4.0",
     "gulp-imagemin": "^3.4.0",
     "gulp-inject": "^4.3.0",
     "imagemin": "^5.3.1",

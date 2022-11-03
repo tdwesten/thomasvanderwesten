@@ -29,7 +29,7 @@
   "dependencies": {
     "decode-html": "^2.0.0",
     "del": "^3.0.0",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-favicons": "^2.2.7",
     "gulp-imagemin": "^3.4.0",
     "gulp-inject": "^4.3.0",

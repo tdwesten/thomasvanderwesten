@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/tdwesten/thomasvanderwesten.nl#readme",
   "devDependencies": {
-    "browser-sync": "^2.18.13",
+    "browser-sync": "^2.27.10",
     "gulp-autoprefixer": "^4.0.0",
     "gulp-clean-css": "^3.9.0",
     "gulp-concat": "^2.6.1",
